@@ -1,7 +1,7 @@
 import type { HomeAssistantEntityInformation } from "@home-assistant-matter-hub/common";
 import { RvcCleanModeServer as Base } from "@matter/main/behaviors";
 import { ModeBase } from "@matter/main/clusters/mode-base";
-import type { RvcCleanMode } from "@matter/main/clusters/rvc-run-mode";
+import type { RvcCleanMode } from "@matter/main/clusters/rvc-clean-mode";
 import { applyPatchState } from "../../utils/apply-patch-state.js";
 import { HomeAssistantEntityBehavior } from "./home-assistant-entity-behavior.js";
 import type { ValueGetter } from "./utils/cluster-config.js";
