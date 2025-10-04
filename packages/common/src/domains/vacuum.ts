@@ -43,6 +43,12 @@ export enum VacuumFanSpeed {
   max = "max",
 }
 
+export enum VacuumCleanMode {
+  vacuum = 0,
+  vacuumAndMop = 1,
+  mop = 2, 
+}
+
 export interface VacuumDeviceAttributes {
   supported_features?: number;
   battery_level?: number | string | null | undefined;

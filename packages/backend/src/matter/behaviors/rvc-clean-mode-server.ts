@@ -14,7 +14,7 @@ export enum RvcSupportedCleanMode {
 
 export interface RvcCleanModeServerConfig {
   getCurrentMode: ValueGetter<RvcSupportedCleanMode>;
-  getSupportedModes: ValueGetter<RvcSupportedCleanMode[]>;
+  getSupportedModes: ValueGetter<RvcCleanMode.ModeOption[]>;
 }
 
 class RvcCleanModeServerBase extends Base {
