@@ -18,11 +18,11 @@ export const VacuumRvcCleanModeServer = RvcCleanModeServer({
 
   // On choisit le mode Matter correspondant
   switch (current) {
-    case 0:
+    case VacuumCleanMode.Vacuum:
       return RvcSupportedCleanMode.Vacuum;
-    case 1:
+    case VacuumCleanMode.VacuumAndMop:
       return RvcSupportedCleanMode.VacuumAndMop;
-    case 2:
+    case VacuumCleanMode.Mop:
       return RvcSupportedCleanMode.Mop;
     default:
       // si la valeur n'existe pas ou est inconnue → on met Vacuum par défaut

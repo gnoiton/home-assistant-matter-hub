@@ -17,7 +17,7 @@ export const VacuumRvcRunModeServer = RvcRunModeServer({
       : RvcSupportedRunMode.Idle,
   getSupportedModes: () => [
     {
-      label: "Idle",
+      label: "test",
       mode: RvcSupportedRunMode.Idle,
       modeTags: [{ value: RvcRunMode.ModeTag.Idle }],
     },
