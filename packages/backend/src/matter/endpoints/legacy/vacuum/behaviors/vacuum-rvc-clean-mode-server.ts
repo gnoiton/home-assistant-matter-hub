@@ -2,7 +2,7 @@ import {
   VacuumDeviceFeature,
   VacuumCleanMode,
 } from "@home-assistant-matter-hub/common";
-import { RvcCleanMode } from "@matter/main/clusters/rvc-clean-mode";
+import { RvcCleanMode } from "@matter/main/clusters";
 import { testBit } from "../../../../../utils/test-bit.js";
 import { HomeAssistantEntityBehavior } from "../../../../behaviors/home-assistant-entity-behavior.js";
 import {

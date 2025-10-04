@@ -10,6 +10,7 @@ export * from "./on-off.js";
 export * from "./relative-humidity-measurement.js";
 export * from "./rvc-operational-state.js";
 export * from "./rvc-run-mode.js";
+export * from "./rvc-clean-mode.js";
 export * from "./temperature-measurement.js";
 export * from "./thermostat.js";
 export * from "./window-covering.js";
